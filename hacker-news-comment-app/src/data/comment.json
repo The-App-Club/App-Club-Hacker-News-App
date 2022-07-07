@@ -1,0 +1,52 @@
+{
+  "commentData": [
+    {
+      "id": "65588c8a-81a7-11ec-b7b8-00155dab3359",
+      "parentId": null,
+      "text": "Nice article! I love React!",
+      "author": "sarah",
+      "children": null,
+      "expanded": true,
+      "upVote": 0,
+      "downVote": 0,
+      "createdTime": "2010-01-01T12:23:34",
+      "updatedTime": "2020-02-01T12:23:34"
+    },
+    {
+      "id": "6d5dc328-81a7-11ec-9d6f-00155dab3359",
+      "parentId": "65588c8a-81a7-11ec-b7b8-00155dab3359",
+      "text": "I agree Sarah, it's a great article. However, I prefer Vue.",
+      "author": "john",
+      "children": null,
+      "expanded": true,
+      "upVote": 0,
+      "downVote": 0,
+      "createdTime": "2021-01-01T12:23:34",
+      "updatedTime": "2021-01-11T12:23:14"
+    },
+    {
+      "id": "749b5e5c-81a7-11ec-81ff-00155dab3359",
+      "parentId": "6d5dc328-81a7-11ec-9d6f-00155dab3359",
+      "text": "ah sh*t, here we go again..",
+      "author": "sarah",
+      "children": null,
+      "expanded": true,
+      "upVote": 0,
+      "downVote": 0,
+      "createdTime": "2021-01-21T12:23:34",
+      "updatedTime": "2021-01-24T12:23:14"
+    },
+    {
+      "id": "7ae06eb0-81a7-11ec-8b10-00155dab3359",
+      "parentId": null,
+      "text": "Cool article. You should put some funny gifs in it or something.",
+      "author": "kevin",
+      "children": null,
+      "expanded": true,
+      "upVote": 0,
+      "downVote": 0,
+      "createdTime": "2021-01-25T12:23:34",
+      "updatedTime": "2021-01-28T12:23:14"
+    }
+  ]
+}

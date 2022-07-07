@@ -1,0 +1,277 @@
+[
+  {
+    "by": "Sincere",
+    "descendants": 2,
+    "id": 30886240,
+    "score": 14,
+    "time": "2022-04-02 03:26:23",
+    "title": "Ask HN: Who is hiring with pleasant interview processes?",
+    "type": "story",
+    "parent": null
+  },
+  {
+    "by": "decodebytes",
+    "id": 30886800,
+    "parent": 30886240,
+    "text": "I have to say my Red Hat interview was pleasant.<p>There were no coding challenges, personality assessments etc. I just spoke with engineers and once with the hiring manager. They would start off with a simple question of &#x27;what have you been working on recently&#x27;, to then start to delve deeper, asking more questions &#x27;why did you choose that approach?&#x27;, but it was also two way, if I had experience in something they were interested in, they would genuinely ask more to learn themselves. There was no poker face play going on. I ended up really enjoying it as it was engineers chatting tech. In hindsight though it was a smart move. The people who interviewed me were bright folks and would have spotted any BS a mile off. Also by making me feel relaxed and letting my guard down, they got to see if I was the right cultural fit for the company.",
+    "time": 1648889391,
+    "type": "comment"
+  },
+  {
+    "by": "michaelsalim",
+    "id": 30886916,
+    "parent": 30886240,
+    "text": "What do you consider pleasant? I&#x27;d say it really varies between different people.",
+    "time": 1648891277,
+    "type": "comment"
+  },
+  {
+    "by": "rschachte",
+    "descendants": 8,
+    "id": 30879738,
+    "score": 35,
+    "text": "I&#x27;m looking to learn more about video encoding, compression, decoding, transcoding, ffmpeg, codecs, etc.<p>This is outside of my typical work, but I&#x27;m starting a new job in this realm shortly and I&#x27;m very interested in learning more about it for fun. Anyone have good books or resources for this? Thanks.",
+    "time": "2022-04-02 01:09:42",
+    "title": "Ask HN: How can I learn about video encoding, h.264, ffmpeg, etc.",
+    "type": "story",
+    "parent": null
+  },
+  {
+    "by": "pertique",
+    "id": 30880838,
+    "parent": 30879738,
+    "text": "A good high-level breakdown of H.264: <a href=\"https:&#x2F;&#x2F;sidbala.com&#x2F;h-264-is-magic&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;sidbala.com&#x2F;h-264-is-magic&#x2F;</a><p>Associated HN post, although there have been a few: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30710574\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=30710574</a><p>More technical look at video codecs in general with sources: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;leandromoreira&#x2F;digital_video_introduction#how-does-a-video-codec-work\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;leandromoreira&#x2F;digital_video_introduction...</a>",
+    "time": 1648834196,
+    "type": "comment"
+  },
+  {
+    "by": "joeld42",
+    "id": 30880371,
+    "parent": 30879738,
+    "text": "It&#x27;s pretty fun to try writing a toy codec. It&#x27;s not too hard if you don&#x27;t have to worry about all the compatibility and generality stuff. Try to make something that outperforms the standard but only on a specific video. :)<p>Also I learned a lot by messing with the ffmpeg source, it&#x27;s pretty readable.",
+    "time": 1648831876,
+    "type": "comment"
+  },
+  {
+    "by": "chrisp_how",
+    "id": 30884017,
+    "parent": 30879738,
+    "text": "All video can be compressed by treating it as a verbatim, monosyllable sentence, or essay. It is about why a frame is a single-unit and not combined with other frames, though syllabic sounds between words can be shortened—I’d advise against it.<p>Sound is a “channel-pitch” stream, which relates a single-, or more different streams through connected pitches. You don’t need any programming to practice! Use a pen and ecofriendly paper: “record” your voice by “strict, composition sheet-music”: A C A Aflat etc. Recompose, rehash, and other operations can turn the sound into all known formats and related sounds!<p>For video, try to manipulate a single distilled image, use a point-by-point display for convenience—again, on paper. Try to split the image in 2, find which way is about equal, and develop a step-by-step algorithm: this is the most advanced ratio-encoding method. Try to convect an image with another image, which is to blend them into a single square of space, without interfering the images: one is a “C”, and the other an “o”, for example. This is the most useful single-display format, which is how avimpeg-2, hma, ncoa—which is an old vhs format— all were combining different frames. Good luck!",
+    "time": 1648852610,
+    "type": "comment"
+  },
+  {
+    "by": "vanillax",
+    "id": 30882649,
+    "parent": 30879738,
+    "text": "Very Practical use case <a href=\"https:&#x2F;&#x2F;github.com&#x2F;blakeblackshear&#x2F;frigate\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;blakeblackshear&#x2F;frigate</a><p>example <a href=\"https:&#x2F;&#x2F;github.com&#x2F;blakeblackshear&#x2F;frigate&#x2F;blob&#x2F;08f573aaa5ec0b9bf3d4b40388942254448b902a&#x2F;frigate&#x2F;video.py\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;blakeblackshear&#x2F;frigate&#x2F;blob&#x2F;08f573aaa5ec...</a>",
+    "time": 1648843187,
+    "type": "comment"
+  },
+  {
+    "by": "davidhyde",
+    "id": 30884077,
+    "parent": 30879738,
+    "text": "I would begin with the basics of JPEG compression followed by audio compression and then, finally video compression. They are all related in more ways than you think. The 3Blue1Brown YouTube channel has a couple of gems on digital signal processing like how fast Fourier transforms work and everything in between. This is a good modern book on the subject: “Digital Signal Processing in Modern Communication Systems 2nd Edition” released in 2021 by Andreas Schwarzinger.",
+    "time": 1648853041,
+    "type": "comment"
+  },
+  {
+    "by": "treman",
+    "id": 30883147,
+    "parent": 30879738,
+    "text": "These resources helped me get started, although somewhat dated though.<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;leandromoreira&#x2F;ffmpeg-libav-tutorial\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;leandromoreira&#x2F;ffmpeg-libav-tutorial</a><p><a href=\"http:&#x2F;&#x2F;dranger.com&#x2F;ffmpeg&#x2F;\" rel=\"nofollow\">http:&#x2F;&#x2F;dranger.com&#x2F;ffmpeg&#x2F;</a>",
+    "time": 1648846075,
+    "type": "comment"
+  },
+  {
+    "by": "pipeline_peak",
+    "id": 30883033,
+    "parent": 30879738,
+    "text": "Learn image encoding, put it in a for loop set to 60 * n seconds AHAHA! <i>pours glass of wine</i>",
+    "time": 1648845260,
+    "type": "comment"
+  },
+  {
+    "by": "rschachte",
+    "id": 30885109,
+    "parent": 30883147,
+    "text": "Thanks a lot this is awesome!",
+    "time": 1648863225,
+    "type": "comment"
+  },
+  {
+    "by": "agleason",
+    "descendants": 1,
+    "id": 30886033,
+    "score": 3,
+    "text": "I am dyslexic, and unfortunately most new tools and technologies are all documented in huge walls of text.  Some have videos to explain what they do, but not a ton.  Besides hands on experience, how do you learn new things?",
+    "time": "2022-04-02 02:31:28",
+    "title": "Ask HN: Engineers with Dyslexia, how do you best deal with learning new tech?",
+    "type": "story",
+    "parent": null
+  },
+  {
+    "by": "News-Dog",
+    "id": 30886093,
+    "parent": 30886033,
+    "text": "&gt;<i>Dyslexie font is a typeface – specially designed for people with dyslexia – which enhances the ease of reading and comprehension.</i><p><a href=\"https:&#x2F;&#x2F;www.dyslexiefont.com\" rel=\"nofollow\">https:&#x2F;&#x2F;www.dyslexiefont.com</a><p>Dyslexie Font : <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Dyslexie\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Dyslexie</a><p>OpenDyslexic : <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;OpenDyslexic\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;OpenDyslexic</a>",
+    "time": 1648878305,
+    "type": "comment"
+  },
+  {
+    "by": "david927",
+    "descendants": 18,
+    "id": 30883352,
+    "score": 18,
+    "text": "What are you working on?  Any new ideas you&#x27;re thinking about?",
+    "time": "2022-04-02 06:11:30",
+    "title": "Ask HN: What Are You Up To? (April 2022)",
+    "type": "story",
+    "parent": null
+  },
+  {
+    "by": "eg312",
+    "id": 30886545,
+    "parent": 30883352,
+    "text": "I needed a way to document my shell scripts (or code snippets) and to quickly replace “parameters”.  For example, if you want to download a YT video as mp3, you have to remember this command “youtube-dl --extract-audio --audio-format mp3 &lt;video URL&gt;” .  You can use the autocomplete &amp; history in the terminal but you still have to remember parts of the command  and replace the old URL with the new one. You can also save it in a text file, and replace &lt;video URL&gt; …  too many select&#x2F;replace&#x2F;copy&#x2F;paste ops…<p>A few months ago I made a good enough solution for my problem <a href=\"https:&#x2F;&#x2F;github.com&#x2F;alexadam&#x2F;reactive-doc\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;alexadam&#x2F;reactive-doc</a> -  it saves ~ 10 minutes&#x2F;day when I have to run complex devops scripts. And I can quickly share the ‘docs’ because they are just plain html files &#x2F; or markdown.<p>Now I just finished the next iteration  - better ‘syntax’ for input widgets, runnable @shell commands and a web based terminal <a href=\"https:&#x2F;&#x2F;github.com&#x2F;alexadam&#x2F;shell-driver\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;alexadam&#x2F;shell-driver</a>  with custom filters and selection actions (useful for me)<p>Next steps: add more features to the web based terminal -&gt; convert history to scripts, autocomplete with parameters, command palette &amp; context aware menus, multiple terminals (with tabs or panels). I also want to add support for React components in the MD editor.",
+    "time": 1648885371,
+    "type": "comment"
+  },
+  {
+    "by": "bko",
+    "id": 30884207,
+    "parent": 30883352,
+    "text": "I got inspired by an Emacs video [0] I found on HN and decided to (once again) try and learn to use it. A lot of emacs videos are tutorials and boring, but it was really cool to see some of the features from someone who was very enthusiastic about it.<p>I keep coming back to emacs every few months so I figured it has to mean something. I tried setting up a react development environment. Got some stuff like auto-complete, but missing other stuff. I essentially want it to mirror VS code to start. I know it&#x27;s possible but there&#x27;s definitely a learning curve. I also tried setting up a python environment, and had similar results.<p>It&#x27;s one of those technologies that seems life changing. Not necessarily in productivity (who cares right?), but just empowering. The closest thing you can get to being a hacker in a movie, setting up an environment where you can easily program macros to do any arbitrary tasks or alter the environment. It really seems like an incredible piece of software that, on the surface level, looks like it could serve as as the framework for so many things, kind of like the web browser is today, but more flexible and programmable. Maybe it&#x27;s just been around too long. I think if it was invented just today it would have a lot of hype. But because it&#x27;s been around so long, it&#x27;s just meh.<p>I don&#x27;t know, maybe I&#x27;m just being romantic about it and will never get over the learning curve. It&#x27;s really hard to leave VS Code for development.<p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=lkIicfzPBys\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=lkIicfzPBys</a>",
+    "time": 1648854254,
+    "type": "comment"
+  },
+  {
+    "by": "ChristopherDrum",
+    "id": 30884402,
+    "parent": 30883352,
+    "text": "Two main things this month:<p>1. Work toward v3.0 of my z-machine (Infocom and Inform games) interpreter for the Pico-8, called Status Line.<p>2. Start sampling new programming languages, because I&#x27;m getting a bit frustrated with some of Pico-8&#x27;s arbitrary limitations and would like a little more breathing room. Since this is all for fun, I have carte blanche to use whatever I want. I&#x27;ve started examining Odin (since Jai isn&#x27;t available yet), as I appreciate the core values that drive its development and I&#x27;m super interested in understanding data-oriented programming better.",
+    "time": 1648856035,
+    "type": "comment"
+  },
+  {
+    "by": "srid68",
+    "id": 30886270,
+    "parent": 30883352,
+    "text": "I have been researching on abstractions which help me to assemble software UI and using it in my freelance web ui projects using more and more declarative and less and less imperative coding practices. Recently I think the abstractions are stable so I started creating a tool for assembling static and static data web UI which I have published as a web site <a href=\"https:&#x2F;&#x2F;gluuie.com\" rel=\"nofollow\">https:&#x2F;&#x2F;gluuie.com</a> and also in GitHub <a href=\"https:&#x2F;&#x2F;github.com&#x2F;Arshu&#x2F;AssembleWebApps\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Arshu&#x2F;AssembleWebApps</a>.<p>Still a long way to go before you can truly assembly all types of UI like static, static data, dynamic, realtime and reactive UI, but the test pages which I have started building seems to show that this is possible, but still require more research<p>Anyway this helps in my freelance projects where I have build a VCard Management System,Warehouse Management System, Sales Order Management System and Print Label Management System all using backend as Microsoft Business Central to validate the abstractions.<p>Currently implement Git Integration and Importing of Data (Html&#x2F;Json&#x2F;Css&#x2F;Js) Components using different CSS Framework like Tailwind, Bootstrap from Git Repositories to validate Parallel Assembly. Also spending time on extracting the assembler runtime to open source the Html&#x2F;Json assembler.<p>My hypothesis which I want to test using my tool&#x2F;abstraction are \n    More Assembly Less Building for Creating Software Apps,\n    More Declarative Less Imperative for Creating Software Apps,\n    More Prototype UI vs Less Requirements Documentation.\n    Portable vs Centralised&#x2F;Decentralised Software,\n    Multi-Platform with Common Abstraction vs Cross Platform,\n    Design for the Forest (System) vs Design for the Trees (Individual Components).<p><pre><code>    All these things are research without any concrete end goal but in the hope something good and useful can be created for myself and in the future for others.</code></pre>",
+    "time": 1648881387,
+    "type": "comment"
+  },
+  {
+    "by": "keiferski",
+    "id": 30885913,
+    "parent": 30883352,
+    "text": "Just launched Dot Sci-Fi last week:<p><a href=\"https:&#x2F;&#x2F;dotscifi.com\" rel=\"nofollow\">https:&#x2F;&#x2F;dotscifi.com</a><p>We are helping to promote interest in science and technology  by funding sci-fi writing contests. The winning stories are published under a Creative Commons license, which makes them easy to share and read.<p>Our first contest is about moon colonization and has $250 in Bitcoin as a prize.<p>I know HN is fairly skeptical of crypto, but I think there is a huge opportunity to channel these new resources into cultural creation and other positive public goods.",
+    "time": 1648875158,
+    "type": "comment"
+  },
+  {
+    "by": "timoteostewart",
+    "id": 30885699,
+    "parent": 30883352,
+    "text": "I&#x27;ve been working on a Hacker News frontend for a few months now[0], and this week I finally made it public-facing. Project features and goals are given on its about page[1]. The project is an end unto itself, but it&#x27;s also a chance to strengthen my Python coding skills and learn about site reliability. And to boot, here are the magic words I know HN will appreciate: it uses no JavaScript at all. (Feedback and crit on the project are very welcome.)<p>[0] <a href=\"https:&#x2F;&#x2F;www.thnr.net\" rel=\"nofollow\">https:&#x2F;&#x2F;www.thnr.net</a><p>[1] <a href=\"https:&#x2F;&#x2F;www.thnr.net&#x2F;about&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.thnr.net&#x2F;about&#x2F;</a>",
+    "time": 1648871164,
+    "type": "comment"
+  },
+  {
+    "by": "Rodeoclash",
+    "id": 30885750,
+    "parent": 30883352,
+    "text": "I&#x27;ve been working on a dedicated review tool for esports coaches &#x2F; analysts.<p>Currently it&#x27;s not easy to play back all the viewpoints of your team members in a game at once in synchronisation with each other so I&#x27;ve built a tool (Electron for now while I prototype how it works, GStreamer + GTK when I&#x27;ve figured it out) that aims to make it easy to synchronise the videos and provides the ability to instantly switch between them.<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;Rodeoclash&#x2F;vodon-pro\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Rodeoclash&#x2F;vodon-pro</a>",
+    "time": 1648871924,
+    "type": "comment"
+  },
+  {
+    "by": "ivanmaeder",
+    "id": 30886043,
+    "parent": 30883352,
+    "text": "Been working on a tool for creators that care about sustainability. It measures a website&#x27;s carbon emissions and automatically removes them.<p>The tricky and interesting bit is figuring out actual emissions (vs applying a rule that 1 visit == x grams of CO2). Work in progress:<p><a href=\"https:&#x2F;&#x2F;beta.backspace.eco&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;beta.backspace.eco&#x2F;</a>",
+    "time": 1648877611,
+    "type": "comment"
+  },
+  {
+    "by": "mark336",
+    "id": 30884913,
+    "parent": 30883352,
+    "text": "I have been working on a Message Board Social Network.  For now its called Qhipu <a href=\"http:&#x2F;&#x2F;yuyaykuna.com&#x2F;gigabots&#x2F;db\" rel=\"nofollow\">http:&#x2F;&#x2F;yuyaykuna.com&#x2F;gigabots&#x2F;db</a> It is like a User Forum, but you can use it to store data like todo lists or notes.  Since Message Board formats are hierarchal and are tree-based they are inherently data storage devices.  The trick is getting people to think tree-like.  Not everyone thinks like a programmer.  Right now its really basic, read-only.  I had something more elaborate working with crud functions and a UI using JQuery tricks but I lost the code and had to start over.  You can see it now it with sample data.  I need to update it as I said so you can  create a thread&#x2F;reply.",
+    "time": 1648861159,
+    "type": "comment"
+  },
+  {
+    "by": "rstat1",
+    "id": 30884365,
+    "parent": 30883352,
+    "text": "I had this bright idea in 2019 (back in the before times) to build a code editing tool almost completely from scratch, that I&#x27;ve been working on off and on since then (though I guess recently its been more off than on).<p>Mostly just because I thought it be fun and because pretty much all the desktop apps I&#x27;ve done over the years, were built with someone else&#x27;s tools and for a single platform, so wanted to do something new to me at least. This one is cross platform between Windows and Linux, though Linux is the primary platform because Windows development is more annoying IMO, and with custom UI.<p>All in C++ too because that&#x27;s what I know, none of this Electron silliness, and with minimal dependencies. Uses Skia for graphics, and I&#x27;ve got a WASM interpreter library I&#x27;m looking to experiment with for doing an extension API when I get to that point.",
+    "time": 1648855709,
+    "type": "comment"
+  },
+  {
+    "by": "teetertater",
+    "id": 30884719,
+    "parent": 30883352,
+    "text": "Working on an extension to visually organize links, aka custom &quot;new tab&quot; page<p>I want to make it more dev &#x2F; b2b focused, e.g. with dev tool integrations. Currently brainstorming. Borne from my own struggle with link management<p>If you&#x27;d like to try it out:\n<a href=\"https:&#x2F;&#x2F;chrome.google.com&#x2F;webstore&#x2F;detail&#x2F;dailylauncher-custom-new&#x2F;pdnbdpgpaofgjccejoggaegalheedcaa?hl=en-GB\" rel=\"nofollow\">https:&#x2F;&#x2F;chrome.google.com&#x2F;webstore&#x2F;detail&#x2F;dailylauncher-cust...</a><p>Or\n<a href=\"https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;dailylauncher-diy-new-tab&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;dailylauncher...</a>",
+    "time": 1648859028,
+    "type": "comment"
+  },
+  {
+    "by": "is0tope",
+    "id": 30885945,
+    "parent": 30883352,
+    "text": "Continuing to work on my technical blog about finance and crypto: <a href=\"https:&#x2F;&#x2F;machow.ski\" rel=\"nofollow\">https:&#x2F;&#x2F;machow.ski</a>. Other than that, working on some smaller side projects related to that.",
+    "time": 1648875666,
+    "type": "comment"
+  },
+  {
+    "by": "trifit",
+    "id": 30883371,
+    "parent": 30883352,
+    "text": "Started a new job. Been thinking about ways that IT support could get automated in the near future.",
+    "time": 1648847642,
+    "type": "comment"
+  },
+  {
+    "by": "devdao",
+    "id": 30884426,
+    "parent": 30883352,
+    "text": "Working on onboarding developers to web3 and building Public Goods at Developer DAO.\nThis includes helping place and fund FLOSS maintainers for projects we know and love and depend on. \nIf you want to join a positive community, and especially if you want to mentor a junior dev, please come join us!",
+    "time": 1648856188,
+    "type": "comment"
+  },
+  {
+    "by": "ffhhj",
+    "id": 30884466,
+    "parent": 30883352,
+    "text": "Starting the second phase of my mind tool to match networks of knowledge, allowing people to discover them.",
+    "time": 1648856565,
+    "type": "comment"
+  },
+  {
+    "by": "tcj_phx",
+    "id": 30884187,
+    "parent": 30883352,
+    "text": "My personal efforts to extract my friend from her psychiatric misdiagnosis are ongoing [ref: my comment history]. I think I&#x27;m going to get somewhere.<p>The Supreme Court of the United States [SCOTUS] denied my petition for extraordinary writ [0] on February 22. This asked SCOTUS to order the district court to abide by the case law requiring an evidentiary hearing (tl&#x2F;dr: I filed for habeas corpus in the US District Court in January 2018. My friend&#x27;s legal mail was intercepted by her $9,000&#x2F;month treatment center. The owner of the facility was formerly a criminal defense attorney, and wrote a crafty letter which was docketed as a &#x27;motion to dismiss&#x27;. I now have videos proving this is fraudulent. The District Court and the Court of Appeals would rather not deal with me, because I&#x27;m asking them to deal with our make-work mental health industry.)<p>I sent SCOTUS a petition for rehearing [1] last month. This time I told them about how the Soviets&#x27; preferred medication for dissident re-education was haloperidol, My petition for rehearing specifically asks the supreme court to end the medical torture of U.S. citizens [pdf pg 3]. This has been distributed for the April 14 2022 conference.<p>My friend is &#x27;stabilized&#x27; with haloperidol when she gets out of sorts [1, pg 4]. All she actually needs is an adequate diet and a low-stress environment.<p>The Mad in America [MIA] foundation posted my essay about how I got to file at SCOTUS:  \n<i>Malignant Do-Gooderism: The Tragedies of Allopathic Psychiatry</i> - <a href=\"https:&#x2F;&#x2F;www.madinamerica.com&#x2F;2022&#x2F;02&#x2F;malignant-gooderism&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.madinamerica.com&#x2F;2022&#x2F;02&#x2F;malignant-gooderism&#x2F;</a><p>If SCOTUS denies my petition for rehearing, I next get to file a proper petition for writ of certiorari. My application for extension of time [2] was granted last month. (Something interesting: 21A512 has a &#x27;received&#x27; stamp, whereas [1] does not. The difference is that I had the post office stamp the date on the outside of the envelope on [1], whereas I just sent 21A512 with stamps, and it presumably was not dated. SCOTUS pro-tip: have your mailings date-stamped by the post office.)<p>A few people have reached out to me on Twitter after reading my MIA essay. One of them has a very good &#x27;false claims act&#x27; suit. She escaped from Arizona&#x27;s involuntary mental health industry after 3 years of harmful treatment, with the assistance of her family. Can&#x27;t share the details, because &#x27;false claims&#x27; cannot be presented for swindles that are covered in the media (for example). I remember also witnessing the class of medical abuse that this woman was subjected to.<p>[0] SCOTUS Docket: <a href=\"https:&#x2F;&#x2F;www.supremecourt.gov&#x2F;search.aspx?filename=&#x2F;docket&#x2F;docketfiles&#x2F;html&#x2F;public&#x2F;21-6444.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.supremecourt.gov&#x2F;search.aspx?filename=&#x2F;docket&#x2F;do...</a><p>[1] Petition for Rehearing: <a href=\"https:&#x2F;&#x2F;www.supremecourt.gov&#x2F;DocketPDF&#x2F;21&#x2F;21-6444&#x2F;219300&#x2F;20220323151613775_KnochelMainDoc.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;www.supremecourt.gov&#x2F;DocketPDF&#x2F;21&#x2F;21-6444&#x2F;219300&#x2F;202...</a><p>[2] Extension of Time: <a href=\"https:&#x2F;&#x2F;www.supremecourt.gov&#x2F;search.aspx?filename=&#x2F;docket&#x2F;docketfiles&#x2F;html&#x2F;public&#x2F;21A512.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.supremecourt.gov&#x2F;search.aspx?filename=&#x2F;docket&#x2F;do...</a>",
+    "time": 1648854080,
+    "type": "comment"
+  },
+  {
+    "by": "Rodeoclash",
+    "id": 30885757,
+    "parent": 30884207,
+    "text": "I&#x27;ve come over to VSCode from Vim because I&#x27;m working a bit with Typescript. I see the appeal (but miss the ease I have working with Vim splits)",
+    "time": 1648872028,
+    "type": "comment"
+  },
+  {
+    "by": "davidjhall",
+    "id": 30884772,
+    "parent": 30884402,
+    "text": "I am here for your z-machine on Pico-8!  I&#x27;m doing a z-machine in python 3.x this week (month? year?) as well.",
+    "time": 1648859537,
+    "type": "comment"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "kick": "node -r esm",
+    "format": "prettier --write \"{,!(node_modules|dist|.next|build)/**/}*.*\""
+  },
+  "dependencies": {
+    "dayjs": "^1.11.0",
+    "firebase": "^9.6.10",
+    "just-group-by": "^2.0.1"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "prettier": "^2.3.0"
+  }
+}
